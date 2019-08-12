@@ -1,0 +1,23 @@
+{
+    "name": "techdegree-project6",
+    "version": "0.0.1",
+    "description": "Treehouse FSJS #6",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/woleogounchi/techdegree-project6.git"
+    },
+    "author": "Kolawole Ogounchi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/woleogounchi/techdegree-project6/issues"
+    },
+    "homepage": "https://github.com/woleogounchi/techdegree-project6#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pug": "^2.0.4"
+    }
+}

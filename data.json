@@ -1,0 +1,48 @@
+{
+    "projects": [{
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator built for project #1 in Teamtreehouse's Full Stack JavaScript Techdegree.",
+            "technologie": ["HTML", "CSS", "JavaSscript"],
+            "live_link": "https://woleogounchi.github.io/techdegree-project1/",
+            "github_link": "https://github.com/woleogounchi/techdegree-project1",
+            "image_urls": ["/imgs/project1-1.png", "/imgs/project1-2.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Student List",
+            "description": "The second project built in Treehouse Full Stack JavaScript Techdegree",
+            "technologie": ["HTML", "CSS", "JavaSscript"],
+            "live_link": "https://woleogounchi.github.io/techdegree-project2/",
+            "github_link": "https://github.com/woleogounchi/techdegree-project2",
+            "image_urls": ["/imgs/project2-1.png", "/imgs/project2-2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive form built for the third project in Teamtreehouse's Full Stack JavaScript Techdegree.",
+            "technologie": ["HTML", "CSS", "JavaSscript", "JQuery"],
+            "live_link": "https://woleogounchi.github.io/techdegree-project3/",
+            "github_link": "https://github.com/woleogounchi/techdegree-project3",
+            "image_urls": ["/imgs/project3-1.png", "/imgs/project3-2.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Word Guessing Game",
+            "description": "This is the forth project assigned for Treehouse's JavaScript Techdegree Program.",
+            "technologie": ["HTML", "CSS", "JavaSscript"],
+            "live_link": "https://woleogounchi.github.io/techdegree-project4/",
+            "github_link": "https://github.com/woleogounchi/techdegree-project4",
+            "image_urls": ["/imgs/project4-1.png", "/imgs/project4-2.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Awesome Startup",
+            "description": "This is the fifth project assigned for Treehouse's JavaScript Techdegree Program.",
+            "technologie": ["HTML", "CSS", "JS"],
+            "live_link": "https://woleogounchi.github.io/techdegree-project5/.",
+            "github_link": "https://github.com/woleogounchi/techdegree-project5",
+            "image_urls": ["/imgs/project5-1.png", "/imgs/project5-2.png"]
+        }
+    ]
+}
