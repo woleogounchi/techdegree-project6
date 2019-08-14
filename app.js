@@ -34,7 +34,13 @@ app.get('/project/:id', (req, res, next) => {
 
     // If a user navigates to a non-existent route, return next()
     if (id > projects.length || isNaN(id)) {
-        return next(err);
+        const err = {
+            message: "your message here",
+            status: 404,
+            stack: "another small message here"
+        };
+        res.locals.error = err;
+        res.render('error', err);
     }
     // Variables to hold the data
     const project = projects[id];
