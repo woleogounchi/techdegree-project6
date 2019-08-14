@@ -33,11 +33,11 @@ app.get('/project/:id', (req, res, next) => {
     const { id } = req.params;
 
     // If a user navigates to a non-existent route, return next()
-    if (id > projects.length || isNaN(id)) {
+    if (id >= projects.length || isNaN(id)) {
         res.locals.error = {
-            message: "your message here",
+            message: "The project you are looking for is not found",
             status: 404,
-            stack: "another small message here"
+            stack: "Please go to another page"
         };
         res.render('error');
     }
