@@ -34,7 +34,7 @@ app.get('/project/:id', (req, res, next) => {
 
     // If a user navigates to a non-existent route, return next()
     if (id > projects.length || isNaN(id)) {
-        return next();
+        return next(err);
     }
     // Variables to hold the data
     const project = projects[id];
@@ -50,7 +50,7 @@ app.get('/project/:id', (req, res, next) => {
 
     // Render the data related to a project
     res.render('project', templateData);
-
+    next();
 });
 
 // Handle 404 error
