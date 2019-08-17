@@ -70,6 +70,8 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
+    // Log out a user friendly error message to the console when the app is pointed at a non-existent route
+    console.log("Sorry the requested page can not be found.")
 });
 
 // App listen to port 3000
