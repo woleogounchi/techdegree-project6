@@ -7,22 +7,19 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1= projectName
+        h1= project.project_name
 
         p.lead.text-light
-          | #{description}
+          | #{project.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
         ul
-          each technology in technologies
+          each technology in project.technologies
             li= technology
 
-        a.button.expanded(href=`${liveLink}` target= '_blank') Live Demo
-        a.button.expanded(href=`${githubLink}` target= '_blank') GitHub Repo
+        a.button.expanded(href=`${project.live_link}` target= '_blank') Live Demo
+        a.button.expanded(href=`${project.github_link}` target= '_blank') GitHub Repo
     
-    each imageUrl in imageUrls
-      img.image(src=`${imageUrls}`)
-    //- img.image(src='https://placehold.it/1200x550')
-    //- img.image(src='https://placehold.it/1200x550')
+    img.image(src=`${project.image_urls[0]}`)

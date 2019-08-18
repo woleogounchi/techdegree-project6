@@ -17,7 +17,7 @@ app.use('/static', express.static('public'));
 // Setting our toutes
 // An index route to render the home page 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {projects});
 });
 app.locals = data.projects;
 
@@ -43,18 +43,9 @@ app.get('/project/:id', (req, res, next) => {
     }
     // Variables to hold the data
     const project = projects[id];
-    const projectName = project.project_name;
-    const description = project.description;
-    const technologies = project.technologies;
-    const liveLink = project.live_link;
-    const githubLink = project.github_link;
-    const imageUrls = project.image_urls;
-
-    // Template that holds all the data
-    const templateData = { projectName, description, technologies, liveLink, githubLink, imageUrls };
 
     // Render the data related to a project
-    res.render('project', templateData);
+    res.render('project', {project});
     next();
 });
 
