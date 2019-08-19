@@ -39,14 +39,13 @@ app.get('/project/:id', (req, res, next) => {
             status: 404,
             stack: "Please go to another page"
         };
-        res.render('error');
+        return res.render('error');
     }
     // Variables to hold the data
     const project = projects[id];
 
     // Render the data related to a project
     res.render('project', {project});
-    next();
 });
 
 // Handle 404 error
