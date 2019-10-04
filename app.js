@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 // Serve the static files located in the public folder
 app.use('/static', express.static('public'));
 
-// Setting our toutes
+// Setting our routes
 // An index route to render the home page 
 app.get('/', (req, res) => {
     res.render('index', {projects});
