@@ -1,7 +1,7 @@
 # techdegree-project6
  This is the sixth project assigned for Treehouse's JavaScript Techdegree Program.
 
-In this project, we create a portfolio site to showcase the projects built throughout the program. The site will contain a landing page, an about page where we'll share our contact info, an elevator pitch and talk a little about ourself, and a series of project pages to show off and detail at least the first five projects built for this Techdegree so far.
+In this project, we create a portfolio site to showcase the projects built throughout the program. The site will contain a landing page, an about page where we'll share our contact info, an elevator pitch and talk a little bit about ourself, and a series of project pages to show off and detail at least the first five projects built for this Techdegree so far. The final result will be deployed on [heroku](https://techdegree-project6.herokuapp.com/).
 
 In details, we will:  
 
